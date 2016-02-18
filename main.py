@@ -154,7 +154,7 @@ def process_json(obj):
 def check_for_alerts():
     global last_id
     # obj = fetch_data('http://dl.dropboxusercontent.com/u/8058232/testing/alerts.json', False);  # Testing url...
-    obj = fetch_data('http://www.oref.org.il/WarningMessages/alerts.json', True);
+    obj = fetch_data('http://www.oref.org.il/WarningMessages/Alert/alerts.json', True);
     process_json(obj)
 
 
